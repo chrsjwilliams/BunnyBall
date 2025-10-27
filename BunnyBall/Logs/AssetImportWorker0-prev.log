@@ -7,9 +7,9 @@ Darwin version:          25.0.0
 Architecture:            arm64
 Running under Rosetta:   NO
 Available memory:        65536 MB
-Date:                    2025-10-16T13:00:41Z
+Date:                    2025-10-27T02:35:59Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-chriswilliams" at "2025-10-16T13:00:41.611513Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-chriswilliams" at "2025-10-27T02:35:59.30474Z"
 
 COMMAND LINE ARGUMENTS:
 /Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/MacOS/Unity
@@ -23,7 +23,9 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49742
+59986
+-licensingIpc
+LicenseClient-chriswilliams
 -job-worker-count
 4
 -background-job-worker-count
@@ -68,12 +70,14 @@ Successfully changed project path to: /Users/chriswilliams/DigitalMediaII/BunnyB
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8314128384]  Target information:
+Player connection [8399046656]  Target information:
 
-Player connection [8314128384]  * "[IP] 10.220.20.154 [Port] 0 [Flags] 2 [Guid] 1972874737 [EditorId] 1972874737 [Version] 1048832 [Id] OSXEditor(0,Chriss-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8399046656]  * "[IP] 192.168.1.199 [Port] 0 [Flags] 2 [Guid] 328530173 [EditorId] 328530173 [Version] 1048832 [Id] OSXEditor(0,MacBookPro) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
-Player connection [8314128384] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [8314128384] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8399046656]  * "[IP] 169.254.228.254 [Port] 0 [Flags] 2 [Guid] 328530173 [EditorId] 328530173 [Version] 1048832 [Id] OSXEditor(0,MacBookPro) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8399046656] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8399046656] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 4
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -85,7 +89,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 8.65 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.63 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.2.7f2 (2b518236b676)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/Resources/UnitySubsystems
@@ -102,22 +106,22 @@ MSL Version: 3.0
 Has Float MSAA: 1
 Has Float Filtering: 1
 ReadWrite Texture Tier: 2
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 1221, path: "/Applications/Unity Hub.app/Contents/Frameworks/UnityLicensingClient_V1.app/Contents/MacOS/Unity.Licensing.Client")
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 35339, path: "/Applications/Unity Hub.app/Contents/Frameworks/UnityLicensingClient_V1.app/Contents/MacOS/Unity.Licensing.Client")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.3+a4e98f1
-  Session Id:              dc8982073c644074b489de29013abae4
-  Correlation Id:          c5dfa136327c83ff6aaa7efafb4e9529
-  External correlation Id: 6722953158835020183
+  Session Id:              82314b7f3e374404b33010a298a6aa90
+  Correlation Id:          78a31925628062cadee4a0fdff8302ef
+  External correlation Id: 1097452129169085195
   Machine Id:              KI/wy768VbMY4ESvw7p8npOdLmU=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-chriswilliams" (connect: 0.00s, validation: 0.00s, handshake: 0.48s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-chriswilliams-notifications" at "2025-10-16T13:00:42.091448Z"
-[Licensing::Module] Licensing Background thread has ended after 0.48s
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-chriswilliams" (connect: 0.00s, validation: 0.00s, handshake: 0.50s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-chriswilliams-notifications" at "2025-10-27T02:35:59.802627Z"
+[Licensing::Module] Licensing Background thread has ended after 0.50s
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56497
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56402
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/6000.2.7f2/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -147,47 +151,48 @@ Register platform support module: /Applications/Unity/Hub/Editor/6000.2.7f2/Play
   Type: Assigned
   Expiration: Unlimited
 Register platform support module: /Applications/Unity/Hub/Editor/6000.2.7f2/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.005165 seconds.
-- Loaded All Assemblies, in  0.284 seconds
+Registered in 0.007365 seconds.
+- Loaded All Assemblies, in  0.285 seconds
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
+[usbmuxd] Attached: 2 00008130-000C512C0E3A001C
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 89 ms
+Android Extension - Scanning For ADB Devices 95 ms
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.427 seconds
-Domain Reload Profiling: 711ms
-	BeginReloadAssembly (89ms)
+- Finished resetting the current domain, in  0.474 seconds
+Domain Reload Profiling: 759ms
+	BeginReloadAssembly (73ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (126ms)
-		LoadAssemblies (90ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (139ms)
+		LoadAssemblies (75ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (122ms)
-			TypeCache.Refresh (121ms)
-				TypeCache.ScanAssembly (111ms)
+		AnalyzeDomain (135ms)
+			TypeCache.Refresh (133ms)
+				TypeCache.ScanAssembly (122ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (428ms)
+	FinalizeReload (474ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (394ms)
+		SetupLoadedEditorAssemblies (437ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (208ms)
+			InitializePlatformSupportModulesInManaged (220ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (56ms)
-			ProcessInitializeOnLoadAttributes (81ms)
-			ProcessInitializeOnLoadMethodAttributes (46ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (96ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -207,8 +212,8 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  0.519 seconds
-Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+- Loaded All Assemblies, in  0.585 seconds
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
@@ -219,35 +224,35 @@ Package Manager log level set to [2]
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.592 seconds
-Domain Reload Profiling: 1106ms
-	BeginReloadAssembly (84ms)
+- Finished resetting the current domain, in  0.647 seconds
+Domain Reload Profiling: 1232ms
+	BeginReloadAssembly (91ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (17ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (22ms)
-	LoadAllAssembliesAndSetupDomain (373ms)
-		LoadAssemblies (238ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (429ms)
+		LoadAssemblies (278ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (171ms)
-			TypeCache.Refresh (132ms)
-				TypeCache.ScanAssembly (119ms)
-			BuildScriptInfoCaches (30ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (593ms)
+		AnalyzeDomain (190ms)
+			TypeCache.Refresh (147ms)
+				TypeCache.ScanAssembly (131ms)
+			BuildScriptInfoCaches (31ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (647ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (506ms)
+		SetupLoadedEditorAssemblies (551ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
+			InitializePlatformSupportModulesInManaged (15ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (115ms)
-			ProcessInitializeOnLoadAttributes (343ms)
-			ProcessInitializeOnLoadMethodAttributes (31ms)
+			BeforeProcessingInitializeOnLoad (120ms)
+			ProcessInitializeOnLoadAttributes (376ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -271,1390 +276,42 @@ WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subsh
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Launching external process: /Applications/Unity/Hub/Editor/6000.2.7f2/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6313 unused Assets / (6.9 MB). Loaded Objects now: 6860.
-Memory consumption went from 128.6 MB to 121.8 MB.
-Total: 6.925042 ms (FindLiveObjects: 0.296875 ms CreateObjectMapping: 0.169709 ms MarkObjects: 4.115000 ms  DeleteObjects: 2.342750 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 302.806364 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Art/Textures/LightConcrete.jpg
-  artifactKey: Guid(8e404971dce18e54999b9de554da1ac3) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/Art/Textures/LightConcrete.jpg using Guid(8e404971dce18e54999b9de554da1ac3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '164610cb0ec766fe127fbad9305f3e96') in 0.132736042 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/Explosion04c.prefab
-  artifactKey: Guid(07725ad1d903f4ea891afbc5b4a253f8) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/Explosion04c.prefab using Guid(07725ad1d903f4ea891afbc5b4a253f8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '416569222be5be0b64260a2358127376') in 0.076428541 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Directional/Torch.prefab
-  artifactKey: Guid(06e14e2567d994e0b942d2e9ed9c92a7) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Directional/Torch.prefab using Guid(06e14e2567d994e0b942d2e9ed9c92a7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cb290aab52c1583836092ac0e1c4375b') in 0.025744667 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Materials
-  artifactKey: Guid(256e592f2daa9a14895a9c79bce39ac3) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Materials using Guid(256e592f2daa9a14895a9c79bce39ac3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6c95f649555b870ac8b95beec68cd221') in 0.001906083 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Scripts
-  artifactKey: Guid(4123e2551f1792149a8a6f841d2d38a1) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Scripts using Guid(4123e2551f1792149a8a6f841d2d38a1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'abca19f5e30eb80b79b856ea73b0f490') in 0.002409458 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Scenes/Game.unity
-  artifactKey: Guid(4d1bd210cfb109d408a92d01118d79a8) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/Scenes/Game.unity using Guid(4d1bd210cfb109d408a92d01118d79a8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd8c8856fe60d5f47d5b4c8a62bb3cd9f') in 0.00428325 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000079 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Flares/Flare02-MultiColor.prefab
-  artifactKey: Guid(46c7347ec6bbf423d9905752824ca1b6) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Flares/Flare02-MultiColor.prefab using Guid(46c7347ec6bbf423d9905752824ca1b6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1857c741053ed930113ab123082e6e51') in 0.024143084 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/Burst-Sharp.prefab
-  artifactKey: Guid(624359039ddfc43a6b27f8c6c1cc5499) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/Burst-Sharp.prefab using Guid(624359039ddfc43a6b27f8c6c1cc5499) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd374297f6a0e8fad2da7af4af1cd2362') in 0.025346458 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/Explosion04a1.prefab
-  artifactKey: Guid(e245491c3f96d49ff99b96bcdd7da7a3) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/Explosion04a1.prefab using Guid(e245491c3f96d49ff99b96bcdd7da7a3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a7f4adac2bf4fd580d0317e813305b78') in 0.026785041 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/Explosion03c.prefab
-  artifactKey: Guid(748eb41b584bb49b99a42da7420e5d1e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/Explosion03c.prefab using Guid(748eb41b584bb49b99a42da7420e5d1e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'abbcae8519bbd5c77a6e5c441ec44b05') in 0.024520792 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Art/Textures/Materials/LigthConcrete.mat
-  artifactKey: Guid(06676d1f0b7cb2e4bba8418f650feb66) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/Art/Textures/Materials/LigthConcrete.mat using Guid(06676d1f0b7cb2e4bba8418f650feb66) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '911577328e8b9727cd1a26b2dbc63e88') in 0.01133525 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Art/Textures/BrickWall.jpg
-  artifactKey: Guid(276d006da86ea3b4c915edca5f4a96ad) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/Art/Textures/BrickWall.jpg using Guid(276d006da86ea3b4c915edca5f4a96ad) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2f828b007779db8e3109e7cf8684fe0c') in 0.011800125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Flares/Flare04-ColorBurst.prefab
-  artifactKey: Guid(0ac53a594a4c2420982f877e49310386) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Flares/Flare04-ColorBurst.prefab using Guid(0ac53a594a4c2420982f877e49310386) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '563c4c4cd6de1fc2d5c60a8f34776756') in 0.029011834 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Art/Textures/Materials/DarkGrass.mat
-  artifactKey: Guid(88d233501bc54964fbfd1909c6dcd265) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/Art/Textures/Materials/DarkGrass.mat using Guid(88d233501bc54964fbfd1909c6dcd265) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '12554659b54226fa0f07ff9ed18cf22c') in 0.004922625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Art/3D/BrickWall.fbx
-  artifactKey: Guid(ceb2da491c530414aa62558a7d0fe714) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/Art/3D/BrickWall.fbx using Guid(ceb2da491c530414aa62558a7d0fe714) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6f913d02b21fd0b3d15dcc9bd7fcc9e7') in 0.024970458 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/Explosion05.prefab
-  artifactKey: Guid(f75468363e2394440a081e9c175e6c93) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/Explosion05.prefab using Guid(f75468363e2394440a081e9c175e6c93) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ec9fbe1e2ec927f4634960d9bb6e6a3f') in 0.026980334 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Art/Textures/DarkGrass.jpg
-  artifactKey: Guid(a877fec4510a8c641aa3c24c510e3d77) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/Art/Textures/DarkGrass.jpg using Guid(a877fec4510a8c641aa3c24c510e3d77) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cd572afbfc17a2348a2c41fdff56cba0') in 0.007206125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000115 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/FlashRingFlame04.prefab
-  artifactKey: Guid(ac8c1c4fd62d44c809ced6a1696a9d62) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/FlashRingFlame04.prefab using Guid(ac8c1c4fd62d44c809ced6a1696a9d62) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fb0cbde3e3fef773fc980021a0a29c54') in 0.027839042 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Art/Textures/Materials/Water.mat
-  artifactKey: Guid(ee6b2b593e929f143a675ebe40bedde5) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/Art/Textures/Materials/Water.mat using Guid(ee6b2b593e929f143a675ebe40bedde5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '86700db3f60b867d2121159afd1ea689') in 0.105251625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Art/Textures/Materials/BrickWall.mat
-  artifactKey: Guid(4a5c88b961aabca40b4f40c90b45affd) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/Art/Textures/Materials/BrickWall.mat using Guid(4a5c88b961aabca40b4f40c90b45affd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '916ecabea59a193443de38a62a5c68cc') in 0.003938916 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Flares/FlareCore.prefab
-  artifactKey: Guid(e16e26b0fc4bd4fdfb4f8014fc3bd07b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Flares/FlareCore.prefab using Guid(e16e26b0fc4bd4fdfb4f8014fc3bd07b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bb4fe09c15eef42b77bd8460000d1411') in 0.023487708 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Flares/FlareCore-Autumn.prefab
-  artifactKey: Guid(0099cc09e124a43e68375bf6b1ae7238) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Flares/FlareCore-Autumn.prefab using Guid(0099cc09e124a43e68375bf6b1ae7238) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a11008fcef1a31e65a03b1ad4f7ae065') in 0.024780708 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Flares/Flare03-Autumn.prefab
-  artifactKey: Guid(f3fa2416fe26847df991cfc3e8876474) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Flares/Flare03-Autumn.prefab using Guid(f3fa2416fe26847df991cfc3e8876474) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '69f284ff6dfd15938094fee432558c4f') in 0.02525075 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Art/3D/Key.fbx
-  artifactKey: Guid(27d4189548aa2b64092c0b398634eb18) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/Art/3D/Key.fbx using Guid(27d4189548aa2b64092c0b398634eb18) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b56e19f300f5a9be1cbff5fb82ebc228') in 0.008961417 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/Explosion01a.prefab
-  artifactKey: Guid(bf3f387d006f0414b80b25ba2b9cdf38) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/Explosion01a.prefab using Guid(bf3f387d006f0414b80b25ba2b9cdf38) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bd377a5bbacef144293fcdc47d83034b') in 0.026741667 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Art/Textures/Materials
-  artifactKey: Guid(7fb34730dc9bad44bb025a4864a537e0) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/Art/Textures/Materials using Guid(7fb34730dc9bad44bb025a4864a537e0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e19b1d7a25896e3a32bbd46139d22f8f') in 0.001744792 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Art
-  artifactKey: Guid(c69495f15cca8e34e962b1f145e23db0) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/Art using Guid(c69495f15cca8e34e962b1f145e23db0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '208f77686c56d5bd5dbd4b18c5d3c63e') in 0.001668125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000094 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/Explosion07.prefab
-  artifactKey: Guid(93a60ba8e409947b1a0334537c8b38c8) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/Explosion07.prefab using Guid(93a60ba8e409947b1a0334537c8b38c8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e5f1a6b0ec9650186ac217e9ca7e5351') in 0.025359125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Art/Textures/Materials/DarkConcrete.mat
-  artifactKey: Guid(e18f01babf070df43bf158ef5c2dcde7) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/Art/Textures/Materials/DarkConcrete.mat using Guid(e18f01babf070df43bf158ef5c2dcde7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '70b0bae7848a9a6d2a15c6fb59ba5617') in 0.004866667 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Art/Textures/Water.jpg
-  artifactKey: Guid(a97f7ef1c57ae1d47844052c61e5e01b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/Art/Textures/Water.jpg using Guid(a97f7ef1c57ae1d47844052c61e5e01b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1faaa0fcc2dcdc2d149705d5ca88f27e') in 0.007112375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000096 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Textures/Flame.psd
-  artifactKey: Guid(b260cbc8d9bc048bd8834c7a1b5aed36) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Textures/Flame.psd using Guid(b260cbc8d9bc048bd8834c7a1b5aed36) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ec7fbb93b488134ede01b59869ba4f24') in 0.009577792 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Art/Textures/LightPathStraight.jpg
-  artifactKey: Guid(23f855a80a11c634db78499e8ba36954) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/Art/Textures/LightPathStraight.jpg using Guid(23f855a80a11c634db78499e8ba36954) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9be865937351b2a1119f33791a22814c') in 0.008229833 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Directional/Torch(Green).prefab
-  artifactKey: Guid(ad9a58f01295f4cb08c52ad8a6ce4b24) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Directional/Torch(Green).prefab using Guid(ad9a58f01295f4cb08c52ad8a6ce4b24) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e95f97b735d8c3826ed0a421deb75252') in 0.025707875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Prefabs/Grass.prefab
-  artifactKey: Guid(ff809012324d5ce4db798c23137b771c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/Prefabs/Grass.prefab using Guid(ff809012324d5ce4db798c23137b771c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dcce975b298f70eae5120663b45cfb87') in 0.008409625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Art/Materials/PlayerBall.mat
-  artifactKey: Guid(2d3619870b987e24d863ab9ef3a01ede) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/Art/Materials/PlayerBall.mat using Guid(2d3619870b987e24d863ab9ef3a01ede) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd1eed51e90d7df163d0a510c6f64a42c') in 0.003543042 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/Flash02.prefab
-  artifactKey: Guid(3c1f0555cc3fd4e1d87382fbaa007f8f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/Flash02.prefab using Guid(3c1f0555cc3fd4e1d87382fbaa007f8f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1c73cc3bcecd29bd72864369021976b0') in 0.023527375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Art/Textures/Materials/Bush.mat
-  artifactKey: Guid(35c8ab062e830aa4bbb93a7e0b72fdcb) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/Art/Textures/Materials/Bush.mat using Guid(35c8ab062e830aa4bbb93a7e0b72fdcb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b72be953bf5dea45e241f3d3db7b8c7b') in 0.004769583 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/Ring.prefab
-  artifactKey: Guid(956db5187dbbe46999d70f0824dc320f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/Ring.prefab using Guid(956db5187dbbe46999d70f0824dc320f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2fb6880a91ab449e5bf630b474ac9077') in 0.0314735 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Art/Textures/Bush.jpg
-  artifactKey: Guid(e8e783733739a1342953d5a4f946c51e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/Art/Textures/Bush.jpg using Guid(e8e783733739a1342953d5a4f946c51e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '21baae71797445815e3e19addc3c8ffd') in 0.007251709 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000081 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Directional/SimpleFlame(Red).prefab
-  artifactKey: Guid(834ef5bb49c804e1db7cbd8ef2e1ec84) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Directional/SimpleFlame(Red).prefab using Guid(834ef5bb49c804e1db7cbd8ef2e1ec84) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cf0bd79d2cda941f79cf7b36bce888f7') in 0.025126125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Directional/SimpleFlame2(Red).prefab
-  artifactKey: Guid(6c1de2b3c41b4411784f75bb6bd048ed) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Directional/SimpleFlame2(Red).prefab using Guid(6c1de2b3c41b4411784f75bb6bd048ed) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'afa5f507876f61ad58355f3acd202852') in 0.023525958 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Art/Textures/Character.jpg
-  artifactKey: Guid(f9557221201d6ca4fbda814dabf156e9) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/Art/Textures/Character.jpg using Guid(f9557221201d6ca4fbda814dabf156e9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bf9e8c0c50d359407b4726612765a972') in 0.009736792 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Textures/ShockWave.psd
-  artifactKey: Guid(e12f8e30c9a7e49a589559cf53454a29) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Textures/ShockWave.psd using Guid(e12f8e30c9a7e49a589559cf53454a29) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '76f7f6c571724d48d57d4b7b76300acc') in 0.007695292 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Directional/SimpleFlame2(Green).prefab
-  artifactKey: Guid(93f88cda45aa04c46be37909b0c07bc7) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Directional/SimpleFlame2(Green).prefab using Guid(93f88cda45aa04c46be37909b0c07bc7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6dd1d857054b8c1693d59904b269c83a') in 0.02417725 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Materials/Flame02.mat
-  artifactKey: Guid(e2c8d6845c95d445685323e25880e162) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Materials/Flame02.mat using Guid(e2c8d6845c95d445685323e25880e162) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6c1784e3ce0ca7a2683603372ce54051') in 0.003625125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000072 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/Explosion04a2.prefab
-  artifactKey: Guid(0f28c0d6e5f4c46428854ca9390ebbdc) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/Explosion04a2.prefab using Guid(0f28c0d6e5f4c46428854ca9390ebbdc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '647fb00c6018e5225c802fd02e6f44b0') in 0.02526375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Art/Textures/Materials/LightGrass.mat
-  artifactKey: Guid(d44d586e08fdace448b050fb9e383dcf) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/Art/Textures/Materials/LightGrass.mat using Guid(d44d586e08fdace448b050fb9e383dcf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4ca6aaee7a99794d3541998209721aef') in 0.004660333 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(9c53962885c2c4f449125a979d6ad240) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Scenes using Guid(9c53962885c2c4f449125a979d6ad240) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd0ecf18979df67b389c2def83796a89d') in 0.001557375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/TutorialInfo
-  artifactKey: Guid(ba062aa6c92b140379dbc06b43dd3b9b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/TutorialInfo using Guid(ba062aa6c92b140379dbc06b43dd3b9b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a021454dc76d10cdd52ae949dde76c28') in 0.001447292 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000082 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Materials/Flame01.mat
-  artifactKey: Guid(b1ca011c5f92d4fd4b5aeac44fd607c6) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Materials/Flame01.mat using Guid(b1ca011c5f92d4fd4b5aeac44fd607c6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ad65f7953fe52074d700c9b474d49535') in 0.002643459 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Scenes
-  artifactKey: Guid(89c9eecefa2ee40b1afdbdb718d6c9a7) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/Scenes using Guid(89c9eecefa2ee40b1afdbdb718d6c9a7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f27ca1105e51c985e5007d961bdb6560') in 0.001712583 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Art/Materials/GradientSkybox.mat
-  artifactKey: Guid(491bd8061d6ec424685c13c6f1f8f175) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/Art/Materials/GradientSkybox.mat using Guid(491bd8061d6ec424685c13c6f1f8f175) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ff14c5edc4b9f4fd474c9cd23cf1b839') in 0.003776708 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000138 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/FlashRingFlame01.prefab
-  artifactKey: Guid(e0c82e4cda44945d0918554b304e6d70) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/FlashRingFlame01.prefab using Guid(e0c82e4cda44945d0918554b304e6d70) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7b07f232ae82cb1ca0a9b7d78dc3e037') in 0.026621666 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Art/Textures/Materials/DarkGrassPathStraight.mat
-  artifactKey: Guid(2441db5cd6d39374cbeb5ed8a1d9d1e5) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/Art/Textures/Materials/DarkGrassPathStraight.mat using Guid(2441db5cd6d39374cbeb5ed8a1d9d1e5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e279985196931c8cc0e37eadc36bb4cb') in 0.004926167 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Directional/Torch(Blue).prefab
-  artifactKey: Guid(8d82766463e42433aa5e49b70572f852) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Directional/Torch(Blue).prefab using Guid(8d82766463e42433aa5e49b70572f852) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f3fe0dc9681888e5749c6f434730c906') in 0.026209916 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Art/Textures/DarkConcrete.jpg
-  artifactKey: Guid(2a984ec76110f874ca80a35d820dbdfb) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/Art/Textures/DarkConcrete.jpg using Guid(2a984ec76110f874ca80a35d820dbdfb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ae345cf280db713bb092645488e84b5c') in 0.00725025 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000099 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Scripts/ParticleTester.cs
-  artifactKey: Guid(f9570b60f57644ed5b7e3178b8d57d93) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Scripts/ParticleTester.cs using Guid(f9570b60f57644ed5b7e3178b8d57d93) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ae3d8fc1db635db6a44224cc0b9df8fd') in 0.002700625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000106 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/Explosion06.prefab
-  artifactKey: Guid(ebd39b50df8574fb88f15e5d023ef3a7) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/Explosion06.prefab using Guid(ebd39b50df8574fb88f15e5d023ef3a7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7cf207202322adece8c9c28324c5b3bc') in 0.024382042 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Tree_Textures
-  artifactKey: Guid(82f28273faf20409cb217d75f1cc326e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Tree_Textures using Guid(82f28273faf20409cb217d75f1cc326e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5e2f599702f5f73a240a58368707f8b6') in 0.00157875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources
-  artifactKey: Guid(d8ad5b7cfd31db44d8e5354a6e8512f9) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources using Guid(d8ad5b7cfd31db44d8e5354a6e8512f9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '04a69010d9e4ee11d393747bb722cd03') in 0.003341542 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000107 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions
-  artifactKey: Guid(19df6b14976dd3a4cbfca0d176881386) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions using Guid(19df6b14976dd3a4cbfca0d176881386) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2b1708c61cb8e8bbbb1d6176f32774f6') in 0.001736083 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/FlashRing02.prefab
-  artifactKey: Guid(bb3bef2df5f35455f9e3890d21dbc268) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/FlashRing02.prefab using Guid(bb3bef2df5f35455f9e3890d21dbc268) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '66306a144b608591362ab193618896df') in 0.024726708 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/Flame2.prefab
-  artifactKey: Guid(07e0b48432a2942a4b04b88d70d29cbc) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/Flame2.prefab using Guid(07e0b48432a2942a4b04b88d70d29cbc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1aba58000f9180b0dca055a1a57cdc5f') in 0.025543292 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/ShockFlash.prefab
-  artifactKey: Guid(9f38591bb6b3f4bae89cf8f5b4091217) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/ShockFlash.prefab using Guid(9f38591bb6b3f4bae89cf8f5b4091217) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a019d697ab0245ff2082ed1ae592a7e0') in 0.025998667 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Flares/Flare01.prefab
-  artifactKey: Guid(e41a1ff11fe7f43e3bb0a215c7cd3d54) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Flares/Flare01.prefab using Guid(e41a1ff11fe7f43e3bb0a215c7cd3d54) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c1ea62e291f923ed832bfa98b0ff6edc') in 0.025361208 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Art/3D
-  artifactKey: Guid(5d28bf599a1fb384a98f9bb8cd0f554e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/Art/3D using Guid(5d28bf599a1fb384a98f9bb8cd0f554e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8df2e1f9bfcc0785d0e13750f7757ad8') in 0.001933583 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000102 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Art/Materials/Key.mat
-  artifactKey: Guid(9229796c0c3ccc74191a9747c8e64e29) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/Art/Materials/Key.mat using Guid(9229796c0c3ccc74191a9747c8e64e29) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f85c531663201c58ea1a306da10a2c2e') in 0.003292 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Directional/SimpleTorch.prefab
-  artifactKey: Guid(d1260e9d5bca24af590ff56a193510fb) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Directional/SimpleTorch.prefab using Guid(d1260e9d5bca24af590ff56a193510fb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a51fb59ab4cd53b43c0676eceed6465a') in 0.025521542 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/Destruction01.prefab
-  artifactKey: Guid(9b26e1efdb8fd4d53b35c3c6b7f50cf5) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/Destruction01.prefab using Guid(9b26e1efdb8fd4d53b35c3c6b7f50cf5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '12b199b96c4d1e19270d773b032b734c') in 0.025404667 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Art/Materials/Bush.mat
-  artifactKey: Guid(e088a76c27654b44d9ad8d3024b12486) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/Art/Materials/Bush.mat using Guid(e088a76c27654b44d9ad8d3024b12486) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '94ad87fd10bc06fa118ff34fd999e764') in 0.003870917 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/Flame1.prefab
-  artifactKey: Guid(2f9e7030759a647e5b7ec0b46dd414f0) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/Flame1.prefab using Guid(2f9e7030759a647e5b7ec0b46dd414f0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7dde75a2bb2809c6bf5f2d2edad240bc') in 0.025585125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/FlashRingFlame03.prefab
-  artifactKey: Guid(32a7d9c6c26df44cf8a12a037118c5ab) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/FlashRingFlame03.prefab using Guid(32a7d9c6c26df44cf8a12a037118c5ab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '99735a2bea1b2371bcff83fa290a836b') in 0.027442875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Art/Materials/LightGrass.mat
-  artifactKey: Guid(cb2f43619bfce114c84761c5baf0b0d1) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/Art/Materials/LightGrass.mat using Guid(cb2f43619bfce114c84761c5baf0b0d1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '76b5a8cb67e26379df543b8bd9312e6d') in 0.003742167 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/Explosion04a3.prefab
-  artifactKey: Guid(97a1d7f3a73b04feca9e61ea6cc1a3f7) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/Explosion04a3.prefab using Guid(97a1d7f3a73b04feca9e61ea6cc1a3f7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '28895742009c6a0317a84d32562e8da4') in 0.025046291 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Art/3D/Land.fbx
-  artifactKey: Guid(102d2331bbbdb444188d4102b0a645e6) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/Art/3D/Land.fbx using Guid(102d2331bbbdb444188d4102b0a645e6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b87656ec7ee5c1fbca17389207824beb') in 0.018250584 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Scripts/DeathBox.cs
-  artifactKey: Guid(62585286fa621914db78d3fb251f2843) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/Scripts/DeathBox.cs using Guid(62585286fa621914db78d3fb251f2843) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5137e26428a97b601db60594bed71e17') in 0.003303125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000109 seconds.
-  path: Assets/TutorialInfo/Icons
-  artifactKey: Guid(8a0c9218a650547d98138cd835033977) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/TutorialInfo/Icons using Guid(8a0c9218a650547d98138cd835033977) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cf8be0ee1b402ac25773c73fd30091b4') in 0.001983333 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/Explosion02.prefab
-  artifactKey: Guid(e6ab56e4714ff4154ac034cf28db78b2) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/Explosion02.prefab using Guid(e6ab56e4714ff4154ac034cf28db78b2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7c1fe8c07a245724089e58e958a5e31d') in 0.025759042 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Art/Textures/Materials/DarkGrassTurn.mat
-  artifactKey: Guid(63053a7b3cdd63e4ea868b9512ca519a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/Art/Textures/Materials/DarkGrassTurn.mat using Guid(63053a7b3cdd63e4ea868b9512ca519a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2ada162b6fc8b6fc246540658d082bc6') in 0.004813125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Art/Textures/DarkPathStraight.jpg
-  artifactKey: Guid(b5cb97f0c722a2d46bd13c40c6b2e505) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/Art/Textures/DarkPathStraight.jpg using Guid(b5cb97f0c722a2d46bd13c40c6b2e505) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9bece30478fe59bbdf7b36aca3ed356b') in 0.007484209 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000075 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/ShockFlame.prefab
-  artifactKey: Guid(57137b89e09584e3e839655c51e6f042) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/ShockFlame.prefab using Guid(57137b89e09584e3e839655c51e6f042) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a46f8d369ca25dbee06612323f669417') in 0.026341667 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Prefabs/Fence.prefab
-  artifactKey: Guid(1dd4fb16cec71e544bf5f7a31072201c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/Prefabs/Fence.prefab using Guid(1dd4fb16cec71e544bf5f7a31072201c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a3e32f749351ffb97cc311ec948e1624') in 0.005306542 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Prefabs/Key.prefab
-  artifactKey: Guid(e6204ab31da16b5468b048819a83c0a5) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/Prefabs/Key.prefab using Guid(e6204ab31da16b5468b048819a83c0a5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '712fe20e159c126e8e5a1db7ab78a9cd') in 0.0170855 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Art/Textures
-  artifactKey: Guid(11be5466af919bc4c9834928736a5dba) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/Art/Textures using Guid(11be5466af919bc4c9834928736a5dba) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c0f0abf3f5b24fd45830ebee46d34a0a') in 0.003421083 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/Yellow.mat
-  artifactKey: Guid(15e204687eedf460383cb29952d19921) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Yellow.mat using Guid(15e204687eedf460383cb29952d19921) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ef667af35107400aa1b55fff9b9fbf0d') in 0.003748375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/Explosion03b.prefab
-  artifactKey: Guid(d33904b3aaa63498c9be5ef9d2e80a6b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/Explosion03b.prefab using Guid(d33904b3aaa63498c9be5ef9d2e80a6b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6af16f568dbbe144f33be44ed2b7c110') in 0.024465833 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Scripts/Player.cs
-  artifactKey: Guid(52cc36a5c350d8d43ab89514e79996e7) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/Scripts/Player.cs using Guid(52cc36a5c350d8d43ab89514e79996e7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b85d8d5479ee434ea25ec83d86271936') in 0.002044333 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Prefabs/Player.prefab
-  artifactKey: Guid(f757b320558b7984c96b025d56b0fd51) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/Prefabs/Player.prefab using Guid(f757b320558b7984c96b025d56b0fd51) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6d3f6c2b8382abbbfa19f6c12ab1178e') in 0.014716333 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Flares/Flare Combo.prefab
-  artifactKey: Guid(5e4029ef407744266b182355a422cfbf) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Flares/Flare Combo.prefab using Guid(5e4029ef407744266b182355a422cfbf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4e774cd1a4412cf5531c38a289d049dc') in 0.005469333 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Prefabs/Shockwave.prefab
-  artifactKey: Guid(4f2b448ece6bb4940be1ce4a87b8e110) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/Prefabs/Shockwave.prefab using Guid(4f2b448ece6bb4940be1ce4a87b8e110) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '15b8c3a45e75317f9622e48a27f54d75') in 0.023009208 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Art/Textures/LightGrass.jpg
-  artifactKey: Guid(14dca455fcd00ac4897bade83ff13afa) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/Art/Textures/LightGrass.jpg using Guid(14dca455fcd00ac4897bade83ff13afa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b3f235bd389e253a8c9fb06ecafee351') in 0.006958125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/FlashRingFlame02.prefab
-  artifactKey: Guid(dd8cbd77dc2344187bda7004b1d3f370) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/FlashRingFlame02.prefab using Guid(dd8cbd77dc2344187bda7004b1d3f370) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e8706a0975b0ba969564c048a3b47755') in 0.026898625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Art/Textures/Gate.jpg
-  artifactKey: Guid(efddf2e1409099a49b96029d2faf57fb) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/Art/Textures/Gate.jpg using Guid(efddf2e1409099a49b96029d2faf57fb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5c5da51c87a3d6b7b735cc88d0fd1f29') in 0.008333167 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Flares/Flare02.prefab
-  artifactKey: Guid(c65e964da65b04bdb95be0f0e10a0012) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Flares/Flare02.prefab using Guid(c65e964da65b04bdb95be0f0e10a0012) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd89dda9a17899a5d7bf527cf5f25d9d8') in 0.025357542 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Art/Materials
-  artifactKey: Guid(ac1f8e0e51a3ee44ebfb117910ea7bfe) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/Art/Materials using Guid(ac1f8e0e51a3ee44ebfb117910ea7bfe) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b69ac3e2294cb910d829f2850fd1a346') in 0.001698875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Green.mat
-  artifactKey: Guid(e13aa6810f5e04c668660af246a933a1) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Green.mat using Guid(e13aa6810f5e04c668660af246a933a1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2826ae2234e9f502fa14aa33a793fbb6') in 0.003042458 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000100 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Directional
-  artifactKey: Guid(51d3394ef2f98f34896ce581d0f4c65b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Directional using Guid(51d3394ef2f98f34896ce581d0f4c65b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '39f93205f315bba2d4b01e6afd7aedf6') in 0.001680834 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '33f5099fd02c1852fe66b8fcb48ef1b7') in 0.004475083 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000072 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/Burst.prefab
-  artifactKey: Guid(8e1dcf1924b1945fcaab73df0affd2ab) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/Burst.prefab using Guid(8e1dcf1924b1945fcaab73df0affd2ab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '961cff55924c48c79832fe5e488e8684') in 0.025189 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/FlashRing01.prefab
-  artifactKey: Guid(d3e0d9dd3a0bb4bf4815b26939dce392) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/FlashRing01.prefab using Guid(d3e0d9dd3a0bb4bf4815b26939dce392) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6331b91a485d9c0c7f25b3cd532e9990') in 0.02415675 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/TutorialInfo/Scripts/Editor
-  artifactKey: Guid(3ad9b87dffba344c89909c6d1b1c17e1) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/TutorialInfo/Scripts/Editor using Guid(3ad9b87dffba344c89909c6d1b1c17e1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b8d857d44f98ca6102c3425c5d24f1d8') in 0.001743334 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Art/3D/Fence.fbx
-  artifactKey: Guid(3fc0cc681ebf58340985f4579594c1c0) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/Art/3D/Fence.fbx using Guid(3fc0cc681ebf58340985f4579594c1c0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b006704fae51e3d39f1b2a2b597b7d5b') in 0.008799208 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Art/3D/Character.fbx
-  artifactKey: Guid(5a3029992dd890d4ba2e3685248d11c0) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/Art/3D/Character.fbx using Guid(5a3029992dd890d4ba2e3685248d11c0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '56417e8667a26b160c3bdbf90c99a0ef') in 0.012638834 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Flares
-  artifactKey: Guid(6bbdb93649421cf49a095154b9d03f03) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Flares using Guid(6bbdb93649421cf49a095154b9d03f03) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3f0f7eb0b3defdbfca214bcb26348cea') in 0.001811625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000127 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Textures/FlameA.psd
-  artifactKey: Guid(8e3ff3e27ca4bc54dda56e89e0550dfa) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Textures/FlameA.psd using Guid(8e3ff3e27ca4bc54dda56e89e0550dfa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '88988044fb4f0fde5660675fded5436f') in 0.007541125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Art/Materials/LightConcrete.mat
-  artifactKey: Guid(bc4d431f124182349b7ccf089ac64255) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/Art/Materials/LightConcrete.mat using Guid(bc4d431f124182349b7ccf089ac64255) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5be153b979e75ad44c90b39b3cf3e3ca') in 0.004102541 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/Explosion01c.prefab
-  artifactKey: Guid(4813da6bfa5e94ac682f6d270a12d4b5) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/Explosion01c.prefab using Guid(4813da6bfa5e94ac682f6d270a12d4b5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a0a8dcbc8b8acd3f6f721bc68cf4039e') in 0.025991041 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Scripts/SimpleRotate.cs
-  artifactKey: Guid(0b6a6722f32fc1f4abcbb575e698fe35) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/Scripts/SimpleRotate.cs using Guid(0b6a6722f32fc1f4abcbb575e698fe35) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5098513032e2d7708a6c1bcc828192de') in 0.00222375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Textures
-  artifactKey: Guid(fce03de975705ff4ea406adb6ad5a177) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Textures using Guid(fce03de975705ff4ea406adb6ad5a177) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c8a803f0ba761844ab150ae3334f2447') in 0.001446375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Materials/Shockwave.mat
-  artifactKey: Guid(f2bffbeb094e1415586c0fdcaa089b71) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Materials/Shockwave.mat using Guid(f2bffbeb094e1415586c0fdcaa089b71) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dee89c7bef4ac1240cab1cc2ccfd8be2') in 0.002728041 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/New Material 1.mat
-  artifactKey: Guid(ccb235f43a2f7475798139cce46351a7) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/New Material 1.mat using Guid(ccb235f43a2f7475798139cce46351a7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '70524f2f87917ffaf0553dd75143fe02') in 0.003267792 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000075 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Art/Materials/Bricks.mat
-  artifactKey: Guid(cf0fda37d44c6ab4aaa93f4e99314712) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/Art/Materials/Bricks.mat using Guid(cf0fda37d44c6ab4aaa93f4e99314712) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '121ceb4e7b2fba79ba10d0626133291d') in 0.003745125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0c282f3990eba4d02893df105d569f42') in 0.001750375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Art/Textures/DarkPathTurn.jpg
-  artifactKey: Guid(93eb2ff8ce9ee5546a3cc580f3c6ad3b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/Art/Textures/DarkPathTurn.jpg using Guid(93eb2ff8ce9ee5546a3cc580f3c6ad3b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd792dd4a20928e6cc9cb354bf15ad38e') in 0.007491708 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Scripts
-  artifactKey: Guid(ca7e6d85b9a84b74d9a493d0cb4295e3) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/Scripts using Guid(ca7e6d85b9a84b74d9a493d0cb4295e3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3d7859abe8e92d9e5d24e1c5519d22dd') in 0.001697375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Art/Textures/Materials/Gate.mat
-  artifactKey: Guid(0a5a64af6882ed94cbea3ef5b8e55d90) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/Art/Textures/Materials/Gate.mat using Guid(0a5a64af6882ed94cbea3ef5b8e55d90) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '784a789f2b3ebb6575c143255d93e475') in 0.003749625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/Explosion04b.prefab
-  artifactKey: Guid(2cccb0aff0bec41229698d0012efce5b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/Explosion04b.prefab using Guid(2cccb0aff0bec41229698d0012efce5b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fc91b11601b216f04cd9696199e800d2') in 0.025397917 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Settings
-  artifactKey: Guid(709f11a7f3c4041caa4ef136ea32d874) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Settings using Guid(709f11a7f3c4041caa4ef136ea32d874) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0a21a97e5fa2689de93fcd6da6bbe2f4') in 0.001649 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/Flash01.prefab
-  artifactKey: Guid(d321a98408cfc4e0299808f65181aab4) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/Flash01.prefab using Guid(d321a98408cfc4e0299808f65181aab4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd0bac31747f5634dc5a698a9160e4430') in 0.023970709 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Prefabs
-  artifactKey: Guid(1f4868197a83c59408c30d729b4b5a7e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/Prefabs using Guid(1f4868197a83c59408c30d729b4b5a7e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '355ed00b18268f2627699d897562ac8f') in 0.001664542 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/Explosion01b.prefab
-  artifactKey: Guid(1e47e1a2302b340578c901da5181c6f1) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/Explosion01b.prefab using Guid(1e47e1a2302b340578c901da5181c6f1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b4a5520da927b5b9f23abd48732437fa') in 0.025999416 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Scripts/Key.cs
-  artifactKey: Guid(c65264f8896472545b924f5dc724188f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/Scripts/Key.cs using Guid(c65264f8896472545b924f5dc724188f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f700908f85e12016a3da1dfd0d8ab60d') in 0.002203125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Art/Textures/LightPathTurn.jpg
-  artifactKey: Guid(b2b28f09155270b4b8226dde7a6ef24f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/Art/Textures/LightPathTurn.jpg using Guid(b2b28f09155270b4b8226dde7a6ef24f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aa42e98f7fb5d4b93e1aa717959d0bb0') in 0.008223625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/TutorialInfo/Scripts
-  artifactKey: Guid(5a9bcd70e6a4b4b05badaa72e827d8e0) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/TutorialInfo/Scripts using Guid(5a9bcd70e6a4b4b05badaa72e827d8e0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c0cf77b7967fe902c6e0a7d5c79d3a59') in 0.001615833 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Directional/SimpleFlame2(Blue).prefab
-  artifactKey: Guid(9f404cddce5a345d9998b301b60096e8) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Directional/SimpleFlame2(Blue).prefab using Guid(9f404cddce5a345d9998b301b60096e8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c76b821d7c8aea22abd834c2090c91d2') in 0.025861833 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/Explosion03a.prefab
-  artifactKey: Guid(6ea62d4e8979f4cb8ad6c56646a6af9f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/Explosion03a.prefab using Guid(6ea62d4e8979f4cb8ad6c56646a6af9f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd09af116dc828f2eb4f5fbf2d89379ab') in 0.024367041 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/Ring2x.prefab
-  artifactKey: Guid(7cb5898aad48444f0ac3592bee3d738c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/Ring2x.prefab using Guid(7cb5898aad48444f0ac3592bee3d738c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4e2de8d15e8a24df753517878ab4cb3d') in 0.031868792 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/New Material.mat
-  artifactKey: Guid(96efbbe29b9c84512a9dd168ff0ec103) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/New Material.mat using Guid(96efbbe29b9c84512a9dd168ff0ec103) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2318fef020711e2feda3fa8e0b70bc1d') in 0.003447709 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000093 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Scripts/GameManager.cs
-  artifactKey: Guid(450723c1ef06ee64fb4a6fdf8c15717a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/Scripts/GameManager.cs using Guid(450723c1ef06ee64fb4a6fdf8c15717a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b35fb3ca0d60a639ad130b37b84d4566') in 0.002267708 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/UnityTechnologies
-  artifactKey: Guid(c8e0313734950471687c531bdc6ea6c4) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies using Guid(c8e0313734950471687c531bdc6ea6c4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '675542c012605e35ce1763c83c3c16a3') in 0.0017775 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack
-  artifactKey: Guid(99caf995a16a5414b91e653509279fc5) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack using Guid(99caf995a16a5414b91e653509279fc5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ab91fae701b22eb573719afcbfcfab3c') in 0.001845042 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Directional/SimpleFlame(Blue).prefab
-  artifactKey: Guid(e840ebf9e10804cc7a1bb453752a4923) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Directional/SimpleFlame(Blue).prefab using Guid(e840ebf9e10804cc7a1bb453752a4923) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3a523b6241630f1613a72de5ee8a1989') in 0.025785583 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Directional/SimpleFlame(Green).prefab
-  artifactKey: Guid(440b55d8d692c4785aa1e7f875da6a43) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Directional/SimpleFlame(Green).prefab using Guid(440b55d8d692c4785aa1e7f875da6a43) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '38bf7833857f0f0c04a3c47a85a8c480') in 0.024487041 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Art/3D/Rocks.fbx
-  artifactKey: Guid(77ab059ecff0d6644a3c0f6e5f3df6be) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/Art/3D/Rocks.fbx using Guid(77ab059ecff0d6644a3c0f6e5f3df6be) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7431170cb1fe7f0941bc9ccaeeb4a5eb') in 0.009136666 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/UnityTechnologies/BunnyBall
-  artifactKey: Guid(931a8790dcab6414ebb2d0640aec236a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall using Guid(931a8790dcab6414ebb2d0640aec236a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3b8b0ef856081bdce79ea6bceef5fca6') in 0.001570458 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.228913 seconds.
-  path: Assets/Material
-  artifactKey: Guid(df4e7c80d74a745fe95172662fde154e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material using Guid(df4e7c80d74a745fe95172662fde154e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '59cf60e51a62c9dc05e5a5ea5778e6f2') in 0.00048 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.944863 seconds.
-  path: Assets/Material
-  artifactKey: Guid(df4e7c80d74a745fe95172662fde154e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Material using Guid(df4e7c80d74a745fe95172662fde154e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ec8ec7e34097bd0498ccfaf1a462155f') in 0.001881458 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.545168 seconds.
-  path: Assets/Material/Green.mat
-  artifactKey: Guid(e13aa6810f5e04c668660af246a933a1) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Material/Green.mat using Guid(e13aa6810f5e04c668660af246a933a1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dab97f709877b107c4be58873d2697af') in 0.004764667 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.323080 seconds.
-  path: Assets/Material/New Material.mat
-  artifactKey: Guid(96efbbe29b9c84512a9dd168ff0ec103) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Material/New Material.mat using Guid(96efbbe29b9c84512a9dd168ff0ec103) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e0f8fa0a39af00b88e0c3ce0a9e642fd') in 0.002810167 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.841221 seconds.
-  path: Assets/Material/New Material 1.mat
-  artifactKey: Guid(ccb235f43a2f7475798139cce46351a7) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Material/New Material 1.mat using Guid(ccb235f43a2f7475798139cce46351a7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ac2fd568bfbad9fbc0c83914c9a937bd') in 0.003138334 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.222652 seconds.
-  path: Assets/Material/Yellow.mat
-  artifactKey: Guid(15e204687eedf460383cb29952d19921) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Material/Yellow.mat using Guid(15e204687eedf460383cb29952d19921) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '17caade7594a2b0f1bdce75a62644994') in 0.013332875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.810546 seconds.
-  path: Assets/Material/New Physics Material.physicMaterial
-  artifactKey: Guid(0093163b46e674564a96b40669a76c18) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Material/New Physics Material.physicMaterial using Guid(0093163b46e674564a96b40669a76c18) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '46a1b803fac5b6285e6317446b5e98b8') in 0.002776 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 131.586865 seconds.
-  path: Assets/Material/Blue.mat
-  artifactKey: Guid(96efbbe29b9c84512a9dd168ff0ec103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Blue.mat using Guid(96efbbe29b9c84512a9dd168ff0ec103) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c96e788de1177903d57b24fe3536724c') in 0.052221083 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.898526 seconds.
-  path: Assets/Material/Blue.mat
-  artifactKey: Guid(96efbbe29b9c84512a9dd168ff0ec103) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Material/Blue.mat using Guid(96efbbe29b9c84512a9dd168ff0ec103) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5b32fff45a15cce5d81c2c661b509fc9') in 0.003253291 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.930736 seconds.
-  path: Assets/Material/Red.mat
-  artifactKey: Guid(ccb235f43a2f7475798139cce46351a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Red.mat using Guid(ccb235f43a2f7475798139cce46351a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d844ef36f4de31a729393012aa98bb0') in 0.005787958 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.969095 seconds.
-  path: Assets/Material/Red.mat
-  artifactKey: Guid(ccb235f43a2f7475798139cce46351a7) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Material/Red.mat using Guid(ccb235f43a2f7475798139cce46351a7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a849291ca0f4e4ffd6bef5d93d3c4b19') in 0.003127792 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.466980 seconds.
-  path: Assets/Material/Bounce.physicMaterial
-  artifactKey: Guid(0093163b46e674564a96b40669a76c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Material/Bounce.physicMaterial using Guid(0093163b46e674564a96b40669a76c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c1cbcc7d46ed02db521ecaa4068d8ab') in 0.0008095 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.972106 seconds.
-  path: Assets/Material/Bounce.physicMaterial
-  artifactKey: Guid(0093163b46e674564a96b40669a76c18) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Material/Bounce.physicMaterial using Guid(0093163b46e674564a96b40669a76c18) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '43e3f0b851b408f3c0e358756d7f02a7') in 0.002170916 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 1207.706711 seconds.
-  path: Assets/UnityTechnologies/BunnyBall
-  artifactKey: Guid(931a8790dcab6414ebb2d0640aec236a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/BunnyBall using Guid(931a8790dcab6414ebb2d0640aec236a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0711907067a134e8186d82f23840792d') in 0.002767375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.657805 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack
-  artifactKey: Guid(99caf995a16a5414b91e653509279fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack using Guid(99caf995a16a5414b91e653509279fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef425a3079c38499aa03222ee2d3f8f2') in 0.001334666 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.476881 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Art
-  artifactKey: Guid(c69495f15cca8e34e962b1f145e23db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/BunnyBall/Art using Guid(c69495f15cca8e34e962b1f145e23db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b77fb4eac8671dac1c2cac08d999c940') in 0.001751625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 28.156444 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Art/3D
-  artifactKey: Guid(5d28bf599a1fb384a98f9bb8cd0f554e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/BunnyBall/Art/3D using Guid(5d28bf599a1fb384a98f9bb8cd0f554e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c94ba0f28df6e526e6f1a865ee89f41') in 0.001355833 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.050760 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Art/3D/BrickWall.fbx
-  artifactKey: Guid(ceb2da491c530414aa62558a7d0fe714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/BunnyBall/Art/3D/BrickWall.fbx using Guid(ceb2da491c530414aa62558a7d0fe714) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5501e1410468b34328fcb1ea0e75168f') in 0.062465958 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Art/3D/Land.fbx
-  artifactKey: Guid(102d2331bbbdb444188d4102b0a645e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/BunnyBall/Art/3D/Land.fbx using Guid(102d2331bbbdb444188d4102b0a645e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c0ecfd62b0ece47e78428722de463c56') in 0.010013959 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Art/3D/Rocks.fbx
-  artifactKey: Guid(77ab059ecff0d6644a3c0f6e5f3df6be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/BunnyBall/Art/3D/Rocks.fbx using Guid(77ab059ecff0d6644a3c0f6e5f3df6be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bdd861571ef3abeeecef03a0d4c48f2c') in 0.009509625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Art/3D/Key.fbx
-  artifactKey: Guid(27d4189548aa2b64092c0b398634eb18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/BunnyBall/Art/3D/Key.fbx using Guid(27d4189548aa2b64092c0b398634eb18) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1aa9c8f2e23c8e8f42a04f5766184ce2') in 0.00925475 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Art/3D/Fence.fbx
-  artifactKey: Guid(3fc0cc681ebf58340985f4579594c1c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/BunnyBall/Art/3D/Fence.fbx using Guid(3fc0cc681ebf58340985f4579594c1c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9510be01c3905a7e5ade9b6405d23cc5') in 0.008783042 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 31.671748 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Art/Materials
-  artifactKey: Guid(ac1f8e0e51a3ee44ebfb117910ea7bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/BunnyBall/Art/Materials using Guid(ac1f8e0e51a3ee44ebfb117910ea7bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ec33b19b85fcfc5090b7426a3c191b1') in 0.0003925 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.031813 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Art/Materials/Bricks.mat
-  artifactKey: Guid(cf0fda37d44c6ab4aaa93f4e99314712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/BunnyBall/Art/Materials/Bricks.mat using Guid(cf0fda37d44c6ab4aaa93f4e99314712) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3cf4d86b5bdfc3b666b4eec9421de519') in 0.005665916 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Art/Materials/LightGrass.mat
-  artifactKey: Guid(cb2f43619bfce114c84761c5baf0b0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/BunnyBall/Art/Materials/LightGrass.mat using Guid(cb2f43619bfce114c84761c5baf0b0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb3487a9315021c65ce0f67583edb08a') in 0.0061525 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Art/Materials/Key.mat
-  artifactKey: Guid(9229796c0c3ccc74191a9747c8e64e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/BunnyBall/Art/Materials/Key.mat using Guid(9229796c0c3ccc74191a9747c8e64e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0cfa88461dec3fb96ca147c17442fa2b') in 0.14777475 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Art/Materials/LightConcrete.mat
-  artifactKey: Guid(bc4d431f124182349b7ccf089ac64255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/BunnyBall/Art/Materials/LightConcrete.mat using Guid(bc4d431f124182349b7ccf089ac64255) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e05b03f07767c214b7fd68b5fa7c772') in 0.00627275 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 26.736140 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Prefabs
-  artifactKey: Guid(1f4868197a83c59408c30d729b4b5a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/BunnyBall/Prefabs using Guid(1f4868197a83c59408c30d729b4b5a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '35459ed5417adaa573ba57ac26b4c531') in 0.000616917 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.097790 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Prefabs/Fence.prefab
-  artifactKey: Guid(1dd4fb16cec71e544bf5f7a31072201c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/BunnyBall/Prefabs/Fence.prefab using Guid(1dd4fb16cec71e544bf5f7a31072201c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b0f25f74117129cca90579e80b1e361d') in 0.004764125 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Prefabs/Player.prefab
-  artifactKey: Guid(f757b320558b7984c96b025d56b0fd51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/BunnyBall/Prefabs/Player.prefab using Guid(f757b320558b7984c96b025d56b0fd51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f185019fdee29566c9f1e4c0fc6c539') in 0.274256084 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 40
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.871231 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Scenes
-  artifactKey: Guid(89c9eecefa2ee40b1afdbdb718d6c9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/BunnyBall/Scenes using Guid(89c9eecefa2ee40b1afdbdb718d6c9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a8ff165f8b36ab56bda5074af82376a') in 0.000376291 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.975190 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Scripts
-  artifactKey: Guid(ca7e6d85b9a84b74d9a493d0cb4295e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/BunnyBall/Scripts using Guid(ca7e6d85b9a84b74d9a493d0cb4295e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd19eaf3b0d0df808cc9170a6711c6be5') in 0.000383542 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 25103.083480 seconds.
-  path: Assets/UnityTechnologies
-  artifactKey: Guid(c8e0313734950471687c531bdc6ea6c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies using Guid(c8e0313734950471687c531bdc6ea6c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f4a99b273dc17018cab59f711cf6e81e') in 0.000588708 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.765005 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Scenes/Game.unity
-  artifactKey: Guid(4d1bd210cfb109d408a92d01118d79a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UnityTechnologies/BunnyBall/Scenes/Game.unity using Guid(4d1bd210cfb109d408a92d01118d79a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be9a481d77d6b00736e3d63c14773814') in 0.00065525 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.948987 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f357d1325ec820222bc5fc042f049a5c') in 0.003153958 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.334158 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Scenes/Game/ReflectionProbe-0.exr
-  artifactKey: Guid(0b9652e09208f45ceb65c0627c1583d4) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/Scenes/Game/ReflectionProbe-0.exr using Guid(0b9652e09208f45ceb65c0627c1583d4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9d9c7fe4b8adb27e1fd396d4f7cd3e07') in 0.010639417 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000088 seconds.
-  path: Assets/UnityTechnologies/BunnyBall/Scenes/Game/LightingData.asset
-  artifactKey: Guid(55013d564ef7b44a0bb8fd72776b4f74) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/UnityTechnologies/BunnyBall/Scenes/Game/LightingData.asset using Guid(55013d564ef7b44a0bb8fd72776b4f74) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bd1cd2a66724c3906321e3eaf5d5a953') in 0.003499084 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
+Unloading 6313 unused Assets / (6.4 MB). Loaded Objects now: 6861.
+Memory consumption went from 129.2 MB to 122.8 MB.
+Total: 9.317209 ms (FindLiveObjects: 0.822292 ms CreateObjectMapping: 0.215333 ms MarkObjects: 5.467958 ms  DeleteObjects: 2.811125 ms)
+
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6304 unused Assets / (5.8 MB). Loaded Objects now: 6861.
+Memory consumption went from 127.0 MB to 121.3 MB.
+Total: 6.559834 ms (FindLiveObjects: 0.330042 ms CreateObjectMapping: 0.192833 ms MarkObjects: 4.047250 ms  DeleteObjects: 1.988875 ms)
+
+Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
@@ -1669,9 +326,9 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-Thread 0x174987000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.399 seconds
-Refreshing native plugins compatible for Editor in 0.23 ms, found 2 plugins.
+Thread 0x176d0f000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.443 seconds
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
@@ -1681,34 +338,182 @@ Native extension for WebGL target not found
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.546 seconds
-Domain Reload Profiling: 947ms
-	BeginReloadAssembly (98ms)
+- Finished resetting the current domain, in  0.541 seconds
+Domain Reload Profiling: 986ms
+	BeginReloadAssembly (95ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (301ms)
+		LoadAssemblies (218ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (112ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (94ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (542ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (462ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (116ms)
+			ProcessInitializeOnLoadAttributes (300ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (1ms)
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6311 unused Assets / (5.1 MB). Loaded Objects now: 6864.
+Memory consumption went from 144.1 MB to 139.0 MB.
+Total: 6.126625 ms (FindLiveObjects: 0.290125 ms CreateObjectMapping: 0.165000 ms MarkObjects: 3.690459 ms  DeleteObjects: 1.980625 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16f303000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.407 seconds
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.621 seconds
+Domain Reload Profiling: 1032ms
+	BeginReloadAssembly (91ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (32ms)
-	RebuildCommonClasses (22ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (23ms)
 	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (12ms)
-	LoadAllAssembliesAndSetupDomain (259ms)
+	initialDomainReloadingComplete (13ms)
+	LoadAllAssembliesAndSetupDomain (274ms)
 		LoadAssemblies (182ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (105ms)
-			TypeCache.Refresh (7ms)
+		AnalyzeDomain (120ms)
+			TypeCache.Refresh (8ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (90ms)
+			BuildScriptInfoCaches (102ms)
 			ResolveRequiredComponents (7ms)
-	FinalizeReload (547ms)
+	FinalizeReload (622ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (468ms)
+		SetupLoadedEditorAssemblies (534ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (121ms)
+			ProcessInitializeOnLoadAttributes (362ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6311 unused Assets / (5.4 MB). Loaded Objects now: 6867.
+Memory consumption went from 144.1 MB to 138.6 MB.
+Total: 6.814291 ms (FindLiveObjects: 0.314042 ms CreateObjectMapping: 0.199791 ms MarkObjects: 4.420625 ms  DeleteObjects: 1.879375 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16f38f000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.416 seconds
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.558 seconds
+Domain Reload Profiling: 976ms
+	BeginReloadAssembly (90ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (13ms)
+	LoadAllAssembliesAndSetupDomain (282ms)
+		LoadAssemblies (193ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (116ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (98ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (558ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (477ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (112ms)
-			ProcessInitializeOnLoadAttributes (308ms)
+			BeforeProcessingInitializeOnLoad (110ms)
+			ProcessInitializeOnLoadAttributes (322ms)
 			ProcessInitializeOnLoadMethodAttributes (30ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
@@ -1732,85 +537,219 @@ WARNING: Shader If subshaders removal was intentional, you may have forgotten tu
 WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6315 unused Assets / (5.6 MB). Loaded Objects now: 6910.
-Memory consumption went from 164.3 MB to 158.7 MB.
-Total: 6.493083 ms (FindLiveObjects: 0.275417 ms CreateObjectMapping: 0.155166 ms MarkObjects: 3.951500 ms  DeleteObjects: 2.106042 ms)
+Unloading 6311 unused Assets / (5.5 MB). Loaded Objects now: 6870.
+Memory consumption went from 144.0 MB to 138.6 MB.
+Total: 6.532333 ms (FindLiveObjects: 0.284625 ms CreateObjectMapping: 0.175083 ms MarkObjects: 4.041292 ms  DeleteObjects: 2.031042 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+[usbmuxd] Detached: 2 00008130-000C512C0E3A001C
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Thread 0x17021b000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.422 seconds
-Refreshing native plugins compatible for Editor in 0.26 ms, found 2 plugins.
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.749 seconds
-Domain Reload Profiling: 1173ms
-	BeginReloadAssembly (95ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (28ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (14ms)
-	LoadAllAssembliesAndSetupDomain (280ms)
-		LoadAssemblies (190ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (119ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (102ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (749ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (658ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (117ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (121ms)
-			ProcessInitializeOnLoadAttributes (379ms)
-			ProcessInitializeOnLoadMethodAttributes (36ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (2ms)
-WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/VR/SpatialMapping/Wireframe' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 36 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6311 unused Assets / (3.4 MB). Loaded Objects now: 6913.
-Memory consumption went from 154.1 MB to 150.7 MB.
-Total: 6.295250 ms (FindLiveObjects: 0.302042 ms CreateObjectMapping: 0.181167 ms MarkObjects: 4.245333 ms  DeleteObjects: 1.566208 ms)
+Received Import Request.
+  Time since last request: 150450.192075 seconds.
+  path: Assets/UnityTechnologies/BunnyBall/Art/Textures/BrickWall.jpg
+  artifactKey: Guid(276d006da86ea3b4c915edca5f4a96ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/BunnyBall/Art/Textures/BrickWall.jpg using Guid(276d006da86ea3b4c915edca5f4a96ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-F3ZU-VT3C-BXDS-TFGN-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 2475210467398-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-F3ZU-VT3C-BXDS-TFGN-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 2475210467398-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+ -> (artifact id: '08041196e886c85b09c164902fa9ebcb') in 0.042463667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
-Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/FlashRing01.prefab
+  artifactKey: Guid(d3e0d9dd3a0bb4bf4815b26939dce392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/FlashRing01.prefab using Guid(d3e0d9dd3a0bb4bf4815b26939dce392) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '95d7d7fa5cd646938933e19a3d1c26bc') in 0.161273084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/UnityTechnologies/BunnyBall/Art/Textures/Materials/LightGrass.mat
+  artifactKey: Guid(d44d586e08fdace448b050fb9e383dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/BunnyBall/Art/Textures/Materials/LightGrass.mat using Guid(d44d586e08fdace448b050fb9e383dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be2d82cc75ed0a35654108ef6c72f578') in 0.018074708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/UnityTechnologies/BunnyBall/Art/Textures/Gate.jpg
+  artifactKey: Guid(efddf2e1409099a49b96029d2faf57fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/BunnyBall/Art/Textures/Gate.jpg using Guid(efddf2e1409099a49b96029d2faf57fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '217a798c112dd8e54c2f986b583b89ba') in 0.004307709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/FlashRingFlame04.prefab
+  artifactKey: Guid(ac8c1c4fd62d44c809ced6a1696a9d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/FlashRingFlame04.prefab using Guid(ac8c1c4fd62d44c809ced6a1696a9d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eac8aaeb22527995721f845be3cdc54e') in 0.005180208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/FlashRing02.prefab
+  artifactKey: Guid(bb3bef2df5f35455f9e3890d21dbc268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/FlashRing02.prefab using Guid(bb3bef2df5f35455f9e3890d21dbc268) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ba22f443c68f2943aa0a807f1682615') in 0.004053375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Flares/Flare04-ColorBurst.prefab
+  artifactKey: Guid(0ac53a594a4c2420982f877e49310386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Flares/Flare04-ColorBurst.prefab using Guid(0ac53a594a4c2420982f877e49310386) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61e560384993c7558827204e1f9f11ab') in 0.003883625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Flares/FlareCore-Autumn.prefab
+  artifactKey: Guid(0099cc09e124a43e68375bf6b1ae7238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Flares/FlareCore-Autumn.prefab using Guid(0099cc09e124a43e68375bf6b1ae7238) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e26511688be1dbcd71244ccbeeb1b961') in 0.00394725 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Textures/FlameA.psd
+  artifactKey: Guid(8e3ff3e27ca4bc54dda56e89e0550dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Textures/FlameA.psd using Guid(8e3ff3e27ca4bc54dda56e89e0550dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3aea55d272713a015487141f6a1a45b9') in 0.0042895 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Flares/FlareCore.prefab
+  artifactKey: Guid(e16e26b0fc4bd4fdfb4f8014fc3bd07b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Flares/FlareCore.prefab using Guid(e16e26b0fc4bd4fdfb4f8014fc3bd07b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c647f76cfdd861b6daa683903cdd7b36') in 0.003942917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/Flash01.prefab
+  artifactKey: Guid(d321a98408cfc4e0299808f65181aab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/Flash01.prefab using Guid(d321a98408cfc4e0299808f65181aab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '10db910f21895eca76160b175e09f64e') in 0.003850458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/UnityTechnologies/BunnyBall/Art/Textures/DarkConcrete.jpg
+  artifactKey: Guid(2a984ec76110f874ca80a35d820dbdfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/BunnyBall/Art/Textures/DarkConcrete.jpg using Guid(2a984ec76110f874ca80a35d820dbdfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dfaadd0949e044ec26dcb9855e07eaed') in 0.004322917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Flares/Flare Combo.prefab
+  artifactKey: Guid(5e4029ef407744266b182355a422cfbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Flares/Flare Combo.prefab using Guid(5e4029ef407744266b182355a422cfbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a1df1579bb6e328aa9edc137d8bdd74') in 0.001517291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/Explosion04a3.prefab
+  artifactKey: Guid(97a1d7f3a73b04feca9e61ea6cc1a3f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/Explosion04a3.prefab using Guid(97a1d7f3a73b04feca9e61ea6cc1a3f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '435a82b4e4459b9397a30309c352c959') in 0.004233666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Flares/Flare03-Autumn.prefab
+  artifactKey: Guid(f3fa2416fe26847df991cfc3e8876474) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Flares/Flare03-Autumn.prefab using Guid(f3fa2416fe26847df991cfc3e8876474) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '505c70d4b68d61d0af665d0f18d87523') in 0.004146792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/UnityTechnologies/BunnyBall/Art/Textures/Materials/Gate.mat
+  artifactKey: Guid(0a5a64af6882ed94cbea3ef5b8e55d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/BunnyBall/Art/Textures/Materials/Gate.mat using Guid(0a5a64af6882ed94cbea3ef5b8e55d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6ef59982598331c3d8d46c3c1b17a7b9') in 0.00475625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Flares/Flare02.prefab
+  artifactKey: Guid(c65e964da65b04bdb95be0f0e10a0012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Flares/Flare02.prefab using Guid(c65e964da65b04bdb95be0f0e10a0012) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cabb71c364ba1b5eba72285cf708e4c9') in 0.003838458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Settings/DefaultVolumeProfile.asset
+  artifactKey: Guid(ab09877e2e707104187f6f83e2f62510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/DefaultVolumeProfile.asset using Guid(ab09877e2e707104187f6f83e2f62510) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b8edb6ac5fccd364bcb185d2b081644') in 0.009045625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/Burst-Sharp.prefab
+  artifactKey: Guid(624359039ddfc43a6b27f8c6c1cc5499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/Burst-Sharp.prefab using Guid(624359039ddfc43a6b27f8c6c1cc5499) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f67aaaba01807d5c5868a4fdaa9b5d57') in 0.00426875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/UnityTechnologies/BunnyBall/Art/Textures/Materials/DarkGrass.mat
+  artifactKey: Guid(88d233501bc54964fbfd1909c6dcd265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/BunnyBall/Art/Textures/Materials/DarkGrass.mat using Guid(88d233501bc54964fbfd1909c6dcd265) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aaa815ac88719fd34ec8149012e0a073') in 0.005750417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/UnityTechnologies/BunnyBall/Art/Textures/Materials/DarkGrassTurn.mat
+  artifactKey: Guid(63053a7b3cdd63e4ea868b9512ca519a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/BunnyBall/Art/Textures/Materials/DarkGrassTurn.mat using Guid(63053a7b3cdd63e4ea868b9512ca519a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8119d96f4dceb15951bc3ca6e35aceb5') in 0.004611916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/Explosion01a.prefab
+  artifactKey: Guid(bf3f387d006f0414b80b25ba2b9cdf38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/Explosion01a.prefab using Guid(bf3f387d006f0414b80b25ba2b9cdf38) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c756eef03e6a66cea6e71c78d060d62') in 0.004173666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/FlashRingFlame02.prefab
+  artifactKey: Guid(dd8cbd77dc2344187bda7004b1d3f370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/BunnyBall/SimpleParticlePack/Resources/Explosions/FlashRingFlame02.prefab using Guid(dd8cbd77dc2344187bda7004b1d3f370) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca4e091a63ae3cd790f4596ec86ebd00') in 0.004175541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
